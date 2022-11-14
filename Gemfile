@@ -1,5 +1,10 @@
 source "https://rubygems.org"
 
+
+
+gem 'rails_12factor'
+gem 'foreman'
+
 # A DSL for quickly creating web applications
 # https://github.com/sinatra/sinatra
 gem "sinatra", "~> 2.1"
