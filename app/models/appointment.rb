@@ -1,7 +1,7 @@
 class Appointment < ActiveRecord::Base
-#     attr_accessor :specialist, :patient_name
-#     belongs_to :doctor
-#     belongs_to :patient
+    attr_accessor :specialist, :patient_name
+    belongs_to :doctor
+    belongs_to :patient
 
 #     # Here I've made the initialize method for the Appointment class responsible for making associations between the patient and doctor every time an appointment is created.
     
